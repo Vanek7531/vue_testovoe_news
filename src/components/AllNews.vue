@@ -60,7 +60,7 @@ const reactive = computed(()=>news.value)
       :key="story.id"
       @click="showText(idx)"
     >
-      <div class="new-id">{{ story.id }} // {{ idx }}</div>
+      <div class="new-id">{{ story.id }}</div>
       <div style="max-width: 80%;">
         <div>{{ story.title }}</div>
         <div>id автора:{{ story.userId }}</div>
